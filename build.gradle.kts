@@ -36,8 +36,8 @@ plugins {
     id("java-library")
 }
 
-group = "org.example"
-version = "1.0.0"
+group = "com.github.l3nnartt.fullbright"
+version = "0.0.1"
 
 plugins.apply("net.labymod.gradle.addon")
 
@@ -60,11 +60,11 @@ subprojects {
 
 addon {
     addonInfo {
-        namespace("example")
-        displayName("Example Addon")
-        author("Example Author")
-        description("An Example Description!")
-        version(System.getenv().getOrDefault("VERSION", "0.0.0"))
+        namespace("fullbright")
+        displayName("FullBright")
+        author("L3nnart_")
+        description("Allows you to change the brightness of the game to full bright")
+        version(System.getenv().getOrDefault("VERSION", "0.0.1"))
 
         //you can add maven dependencies here. the dependencies will then be downloaded by labymod.
         //mavenDependencies().add(MavenDependency("https://repo.maven.apache.org/maven2/", "com.google.guava:guava:31.1-jre"))

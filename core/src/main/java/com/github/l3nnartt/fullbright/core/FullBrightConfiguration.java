@@ -1,4 +1,4 @@
-package org.example.core;
+package com.github.l3nnartt.fullbright.core;
 
 import net.labymod.api.addon.AddonConfig;
 import net.labymod.api.client.gui.screen.widget.widgets.input.SwitchWidget.SwitchSetting;
@@ -7,7 +7,7 @@ import net.labymod.api.configuration.loader.property.ConfigProperty;
 
 @SuppressWarnings("FieldMayBeFinal")
 @ConfigName("settings")
-public class ExampleConfiguration extends AddonConfig {
+public class FullBrightConfiguration extends AddonConfig {
 
   @SwitchSetting
   private final ConfigProperty<Boolean> enabled = new ConfigProperty<>(true);

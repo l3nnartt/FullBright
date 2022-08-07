@@ -1,7 +1,7 @@
 {
-  "example": {
+  "fullbright": {
     "settings": {
-      "name": "ExampleAddon",
+      "name": "FullBright",
       "enabled": {
         "name": "Enabled"
       }
