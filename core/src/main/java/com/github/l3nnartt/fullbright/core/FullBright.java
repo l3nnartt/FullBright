@@ -13,8 +13,10 @@ public class FullBright extends LabyAddon<FullBrightConfiguration> {
   protected void enable() {
     this.registerSettingCategory();
 
-    FullBrightSettings fullBrightSettings = LabyGuice.getInstance(FullBrightSettings.class);
-    fullBrightSettings.setGamma(10.0f);
+    if (this.configuration().enabled().get()) {
+      FullBrightSettings fullBrightSettings = LabyGuice.getInstance(FullBrightSettings.class);
+      fullBrightSettings.setGamma(10.0f);
+    }
 
     this.logger().info("Enabled the Addon");
   }
