@@ -65,7 +65,7 @@ addon {
         author("L3nnart_")
         description("Allows you to change the brightness of the game to full bright")
         version(System.getenv().getOrDefault("VERSION", "0.0.1"))
-        //minecraftVersion("1.17<1.19.2")
+        minecraftVersion("1.8<1.18")
 
         //you can add maven dependencies here. the dependencies will then be downloaded by labymod.
         //mavenDependencies().add(MavenDependency("https://repo.maven.apache.org/maven2/", "com.google.guava:guava:31.1-jre"))

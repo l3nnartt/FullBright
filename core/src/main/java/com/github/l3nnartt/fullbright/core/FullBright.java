@@ -18,7 +18,7 @@ public class FullBright extends LabyAddon<FullBrightConfiguration> {
       fullBrightSettings.setGamma(10.0f);
     }
 
-    this.logger().info("Enabled the Addon");
+    this.logger().info("Addon successfully enabled!");
   }
 
   @Override

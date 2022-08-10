@@ -11,7 +11,9 @@ public class Settings implements FullBrightSettings {
 
   @Override
   public void setGamma(float gamma) {
-    Double newGamma = (double) gamma;
-    Minecraft.getInstance().options.gamma().set(newGamma);
+    // 1.19 dont support this :(
+
+    //Double newGamma = (double) gamma;
+    //Minecraft.getInstance().options.gamma().set(newGamma);
   }
 }
