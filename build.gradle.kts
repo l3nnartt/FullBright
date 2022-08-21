@@ -62,14 +62,11 @@ addon {
     addonInfo {
         namespace("fullbright")
         displayName("FullBright")
+        iconUrl("https://dl.lennartloesche.de/fullbright/logo.png", project(":core"))
         author("L3nnart_")
         description("Allows you to change the brightness of the game to full bright")
-        version(System.getenv().getOrDefault("VERSION", "0.0.1"))
+        version("0.0.2")
         minecraftVersion("1.8<1.18")
-        iconUrl("https://dl.lennartloesche.de/fullbright/logo.png", project(":core"))
-
-        //you can add maven dependencies here. the dependencies will then be downloaded by labymod.
-        //mavenDependencies().add(MavenDependency("https://repo.maven.apache.org/maven2/", "com.google.guava:guava:31.1-jre"))
     }
     
     internalRelease()
