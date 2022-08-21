@@ -1,5 +1,6 @@
 package com.github.l3nnartt.fullbright.core;
 
+import com.github.l3nnartt.fullbright.core.listener.ConfigUpdateListener;
 import com.google.inject.Singleton;
 import net.labymod.api.addon.LabyAddon;
 import net.labymod.api.inject.LabyGuice;
@@ -12,9 +13,10 @@ public class FullBright extends LabyAddon<FullBrightConfiguration> {
   @Override
   protected void enable() {
     this.registerSettingCategory();
+    this.registerListener(ConfigUpdateListener.class);
 
+    FullBrightSettings fullBrightSettings = LabyGuice.getInstance(FullBrightSettings.class);
     if (this.configuration().enabled().get()) {
-      FullBrightSettings fullBrightSettings = LabyGuice.getInstance(FullBrightSettings.class);
       fullBrightSettings.setGamma(10.0f);
     }
 

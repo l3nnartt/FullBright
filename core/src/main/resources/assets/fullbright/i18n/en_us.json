@@ -1,9 +1,9 @@
 {
-  "fullbright": {
-    "settings": {
-      "name": "FullBright",
-      "enabled": {
-        "name": "Enabled"
+  "fullbright" : {
+    "settings" : {
+      "name" : "FullBright",
+      "enabled" : {
+        "name" : "Enabled"
       }
     }
   }
