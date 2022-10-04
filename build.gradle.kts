@@ -69,5 +69,5 @@ addon {
         minecraftVersion("1.8<1.18")
     }
     
-    internalRelease()
+    snapshotRelease()
 }
