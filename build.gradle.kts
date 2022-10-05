@@ -65,7 +65,7 @@ addon {
         iconUrl("https://dl.lennartloesche.de/fullbright/logo.png", project(":core"))
         author("L3nnart_")
         description("Allows you to change the brightness of the game to full bright")
-        version("1.2")
+        version("1.3")
         minecraftVersion("1.8<1.18")
     }
     
