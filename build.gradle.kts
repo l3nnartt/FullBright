@@ -28,7 +28,7 @@ buildscript {
     }
 
     dependencies {
-        classpath("net.labymod.gradle", "addon", "0.2.46")
+        classpath("net.labymod.gradle", "addon", "0.2.51")
     }
 }
 
@@ -37,7 +37,7 @@ plugins {
 }
 
 group = "com.github.l3nnartt.fullbright"
-version = "1.1"
+version = "1.4"
 
 plugins.apply("net.labymod.gradle.addon")
 
@@ -65,7 +65,7 @@ addon {
         iconUrl("https://dl.lennartloesche.de/fullbright/logo.png", project(":core"))
         author("L3nnart_")
         description("Allows you to change the brightness of the game to full bright")
-        version("1.3")
+        version("1.4")
         minecraftVersion("1.8<1.18")
     }
     
