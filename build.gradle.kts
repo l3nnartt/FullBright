@@ -19,7 +19,6 @@ buildscript {
             }
         }
 
-
         maven("https://repo.spongepowered.org/repository/maven-public") {
             name = "SpongePowered Repository"
         }
@@ -37,7 +36,7 @@ plugins {
 }
 
 group = "com.github.l3nnartt.fullbright"
-version = "1.4"
+version = "1.5"
 
 plugins.apply("net.labymod.gradle.addon")
 
